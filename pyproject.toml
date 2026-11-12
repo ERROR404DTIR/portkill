@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portkill"
+version = "1.0.0"
+description = "See what is listening on your ports and free them in one command."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["port", "kill", "cli", "devtools", "lsof", "netstat"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Software Development",
+]
+
+[project.urls]
+Homepage = "https://github.com/ERROR404DTIR/portkill"
+
+[project.scripts]
+portkill = "portkill:main"
+
+[tool.setuptools]
+py-modules = ["portkill"]
