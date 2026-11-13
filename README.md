@@ -1,4 +1,6 @@
 <p align="center">
+
+<p align="center"><img src="assets/readme-banner.svg" alt="Animated Portkill banner" width="100%"></p>
   <img src="assets/banner.svg" alt="portkill - free any port in one command" width="820">
 </p>
 
@@ -48,7 +50,7 @@ PORT   PID      ADDRESS           PROCESS
 3000   4821     *                 node
 
 Stop these processes? [y/N] y
-✔ freed port 3000 (node, pid 4821)
+ freed port 3000 (node, pid 4821)
 ```
 
 | Command | What it does |
